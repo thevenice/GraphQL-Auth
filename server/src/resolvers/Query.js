@@ -10,4 +10,4 @@ const Query = {
   feed: () => titles
 };
 
-module.exports = { Query };
+module.exports = { Query, titles };
