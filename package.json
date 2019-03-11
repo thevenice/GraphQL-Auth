@@ -1,0 +1,8 @@
+{
+  "name": "GraphQL-Auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thevenice/GraphQL-Auth.git",
+  "author": "thevenice <pp886655@gmail.com>",
+  "license": "MIT"
+}
