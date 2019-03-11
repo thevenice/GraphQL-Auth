@@ -1,9 +1,13 @@
-// function Query(parent,args,context,info){
-// return context.args.prisma.(test)
-// }
+const titles = [
+  {
+    id: "link-0",
+    title: "test post"
+  }
+];
 
 const Query = {
-  test: (_, args, context, info) => `Hello ${args.name || "world"}`
+  test: (_, args, context, info) => `Hello ${args.name || "world"}`,
+  feed: () => titles
 };
 
 module.exports = { Query };

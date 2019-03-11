@@ -1,7 +1,13 @@
 type Query {
   test(name: String): String!
+  feed: [Titles!]!
 }
 
 type Mutation {
   post(createdBy: String!, description: String!, location: String): String!
+}
+
+type Titles {
+  id: ID!
+  title: String!
 }

@@ -6,6 +6,13 @@ const resolvers = {
   Mutation
 };
 
+const titles = [
+  {
+    id: `title-0`,
+    title: "new post"
+  }
+];
+
 const server = new GraphQLServer({
   typeDefs: "./src/schema.graphql",
   resolvers
@@ -14,3 +21,4 @@ const server = new GraphQLServer({
 server.start(_ =>
   console.log(`your server is running on http://localhost:4000`)
 );
+module.exports = { titles };
