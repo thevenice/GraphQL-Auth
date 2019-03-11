@@ -3,5 +3,5 @@ type Query {
 }
 
 type Mutation {
-  post(name: String!, email: String!): String!
+  post(createdBy: String!, description: String!, location: String): String!
 }
